@@ -11,4 +11,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0198-house-robber](https://github.com/Akankshya1508/leetcode-solutions/tree/main/0198-house-robber/) | Medium |
+| [0509-fibonacci-number](https://github.com/Akankshya1508/leetcode-solutions/tree/main/0509-fibonacci-number/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/Akankshya1508/leetcode-solutions/tree/main/0509-fibonacci-number/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/Akankshya1508/leetcode-solutions/tree/main/0509-fibonacci-number/) | Easy |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/Akankshya1508/leetcode-solutions/tree/main/0509-fibonacci-number/) | Easy |
 <!---LeetCode Topics End-->
