@@ -4,21 +4,24 @@ class Solution {
         int r = grid.length;
         int c = grid[0].length;
 
-        int dp[][][]=new int[r][c][c];
+     
 
-         // 🟢 Base case: last row
+        int[][] front = new int[c][c];
+        int[][] curr = new int[c][c];
+
+        // 🟢 Base case: last row
         for(int col1 = 0; col1 < c; col1++)
         {
             for(int col2 = 0; col2 < c; col2++)
             {
                 if(col1 == col2)
-                    dp[r-1][col1][col2] = grid[r-1][col1];
+                    front[col1][col2] = grid[r-1][col1];
                 else
-                    dp[r-1][col1][col2] = grid[r-1][col1] + grid[r-1][col2];
+                    front[col1][col2] = grid[r-1][col1] + grid[r-1][col2];
             }
         }
 
-        // 🔁 Fill from bottom to top
+        // 🔁 Move upwards
         for(int row = r - 2; row >= 0; row--)
         {
             for(int col1 = 0; col1 < c; col1++)
@@ -43,20 +46,23 @@ class Solution {
                                 else
                                     value = grid[row][col1] + grid[row][col2];
 
-                                value += dp[row+1][newCol1][newCol2];
+                                value += front[newCol1][newCol2];
 
                                 max = Math.max(max, value);
                             }
                         }
                     }
 
-                    dp[row][col1][col2] = max;
+                    curr[col1][col2] = max;
                 }
             }
+
+            // 🔄 Move curr → front
+            for(int i = 0; i < c; i++)
+                front[i] = curr[i].clone();
         }
 
-        // 🚀 Start positions
-        return dp[0][0][c-1];
+        return front[0][c-1];
         
     }
      
