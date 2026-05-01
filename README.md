@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/Akankshya1508/leetcode-solutions/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Akankshya1508/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0509-fibonacci-number](https://github.com/Akankshya1508/leetcode-solutions/tree/main/0509-fibonacci-number/) | Easy |
 ## Recursion
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Akankshya1508/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Akankshya1508/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0069-sqrtx](https://github.com/Akankshya1508/leetcode-solutions/tree/master/0069-sqrtx) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Akankshya1508/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Akankshya1508/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Akankshya1508/leetcode-solutions/tree/master/0162-find-peak-element) |
